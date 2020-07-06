@@ -1,5 +1,5 @@
 {
-  "FilePath": "e:\\Projects\\dotnet\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
+  "FilePath": "d:\\Projects\\dotnet\\little-aspnetcore-todoapp\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14364,58 +14364,58 @@
   "RootNamespace": "AspNetCoreTodo",
   "Documents": [
     {
-      "FilePath": "e:\\Projects\\dotnet\\AspNetCoreTodo\\AspNetCoreTodo\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "e:\\Projects\\dotnet\\AspNetCoreTodo\\AspNetCoreTodo\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "e:\\Projects\\dotnet\\AspNetCoreTodo\\AspNetCoreTodo\\Views\\Todo\\AddItemPartial.cshtml",
+      "FilePath": "d:\\Projects\\dotnet\\little-aspnetcore-todoapp\\AspNetCoreTodo\\Views\\Todo\\AddItemPartial.cshtml",
       "TargetPath": "Views\\Todo\\AddItemPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "e:\\Projects\\dotnet\\AspNetCoreTodo\\AspNetCoreTodo\\Views\\Shared\\_LoginPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "e:\\Projects\\dotnet\\AspNetCoreTodo\\AspNetCoreTodo\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "e:\\Projects\\dotnet\\AspNetCoreTodo\\AspNetCoreTodo\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "e:\\Projects\\dotnet\\AspNetCoreTodo\\AspNetCoreTodo\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "e:\\Projects\\dotnet\\AspNetCoreTodo\\AspNetCoreTodo\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "e:\\Projects\\dotnet\\AspNetCoreTodo\\AspNetCoreTodo\\Views\\Todo\\Index.cshtml",
+      "FilePath": "d:\\Projects\\dotnet\\little-aspnetcore-todoapp\\AspNetCoreTodo\\Views\\Todo\\Index.cshtml",
       "TargetPath": "Views\\Todo\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "e:\\Projects\\dotnet\\AspNetCoreTodo\\AspNetCoreTodo\\Views\\Home\\Privacy.cshtml",
+      "FilePath": "d:\\Projects\\dotnet\\little-aspnetcore-todoapp\\AspNetCoreTodo\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Projects\\dotnet\\little-aspnetcore-todoapp\\AspNetCoreTodo\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Projects\\dotnet\\little-aspnetcore-todoapp\\AspNetCoreTodo\\Views\\Shared\\_LoginPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Projects\\dotnet\\little-aspnetcore-todoapp\\AspNetCoreTodo\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Projects\\dotnet\\little-aspnetcore-todoapp\\AspNetCoreTodo\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Projects\\dotnet\\little-aspnetcore-todoapp\\AspNetCoreTodo\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Projects\\dotnet\\little-aspnetcore-todoapp\\AspNetCoreTodo\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "e:\\Projects\\dotnet\\AspNetCoreTodo\\AspNetCoreTodo\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FilePath": "d:\\Projects\\dotnet\\little-aspnetcore-todoapp\\AspNetCoreTodo\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Projects\\dotnet\\little-aspnetcore-todoapp\\AspNetCoreTodo\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     }
   ],

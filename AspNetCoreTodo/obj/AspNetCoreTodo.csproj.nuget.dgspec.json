@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projects\\dotnet\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo.csproj": {}
+    "D:\\Projects\\dotnet\\little-aspnetcore-todoapp\\AspNetCoreTodo\\AspNetCoreTodo.csproj": {}
   },
   "projects": {
-    "E:\\Projects\\dotnet\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo.csproj": {
+    "D:\\Projects\\dotnet\\little-aspnetcore-todoapp\\AspNetCoreTodo\\AspNetCoreTodo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\dotnet\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
+        "projectUniqueName": "D:\\Projects\\dotnet\\little-aspnetcore-todoapp\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
         "projectName": "AspNetCoreTodo",
-        "projectPath": "E:\\Projects\\dotnet\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
-        "packagesPath": "C:\\Users\\bkiyakov\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\dotnet\\AspNetCoreTodo\\AspNetCoreTodo\\obj\\",
+        "projectPath": "D:\\Projects\\dotnet\\little-aspnetcore-todoapp\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
+        "packagesPath": "C:\\Users\\Bjorn\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\dotnet\\little-aspnetcore-todoapp\\AspNetCoreTodo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\bkiyakov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bjorn\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -78,6 +77,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.0.3, 3.0.3]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -86,7 +103,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

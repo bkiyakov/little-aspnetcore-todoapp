@@ -1,3 +1,4 @@
+using System;
 using System.Threading.Tasks;
 using AspNetCoreTodo.Models;
 using AspNetCoreTodo.Services;
@@ -34,6 +35,21 @@ namespace AspNetCoreTodo.Controllers
 
             if(!succesfull){
                 return BadRequest("Could not add item");
+            }
+
+            return RedirectToAction("Index");
+        }
+
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> MarkDone(Guid id){
+            if (id == Guid.Empty){
+                return RedirectToAction("Index");
+            }
+
+            var succesfull = await _todoItemService.MarkDoneAsync(id);
+        
+            if (!succesfull){
+                return BadRequest("Could not mark item as done");
             }
 
             return RedirectToAction("Index");
