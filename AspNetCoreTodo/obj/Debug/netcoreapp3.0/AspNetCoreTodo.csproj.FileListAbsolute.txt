@@ -114,3 +114,4 @@ E:\Projects\dotnet\AspNetCoreTodo\AspNetCoreTodo\bin\Debug\netcoreapp3.0\vi\Huma
 E:\Projects\dotnet\AspNetCoreTodo\AspNetCoreTodo\bin\Debug\netcoreapp3.0\zh-CN\Humanizer.resources.dll
 E:\Projects\dotnet\AspNetCoreTodo\AspNetCoreTodo\bin\Debug\netcoreapp3.0\zh-Hans\Humanizer.resources.dll
 E:\Projects\dotnet\AspNetCoreTodo\AspNetCoreTodo\bin\Debug\netcoreapp3.0\zh-Hant\Humanizer.resources.dll
+E:\Projects\dotnet\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\netcoreapp3.0\Razor\Views\Todo\AddItemPartial.cshtml.g.cs

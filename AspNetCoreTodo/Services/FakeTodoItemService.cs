@@ -5,7 +5,12 @@ using AspNetCoreTodo.Models;
 namespace AspNetCoreTodo.Services
 {
     public class FakeTodoItemService : ITodoItemService
-    {
+    {   
+        public Task<bool> AddItemAsync(TodoItem newTodoItem)
+        {
+            throw new NotImplementedException();
+        }
+
         public Task<TodoItem[]> GetIncompleteItemsAsync()
         {
             var item1 = new TodoItem
