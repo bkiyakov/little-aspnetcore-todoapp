@@ -4,6 +4,7 @@ using AspNetCoreTodo.Models;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using System;
+using Microsoft.AspNetCore.Identity;
 
 namespace AspNetCoreTodo.Services
 {
@@ -16,10 +17,11 @@ namespace AspNetCoreTodo.Services
             _dbcontext = dbContext;
         }
 
-        public async Task<bool> AddItemAsync(TodoItem newTodoItem)
+        public async Task<bool> AddItemAsync(TodoItem newTodoItem, IdentityUser user)
         {
             newTodoItem.Id = Guid.NewGuid();
             newTodoItem.IsDone = false;
+            newTodoItem.UserId = user.Id;
             //newTodoItem.DueAt = DateTimeOffset.Now.AddDays(3);
 
             _dbcontext.Items.Add(newTodoItem);
@@ -29,14 +31,14 @@ namespace AspNetCoreTodo.Services
             return saveResult == 1;
         }
 
-        public async Task<TodoItem[]> GetIncompleteItemsAsync()
+        public async Task<TodoItem[]> GetIncompleteItemsAsync(IdentityUser user)
         {
-            return await _dbcontext.Items.Where(x => x.IsDone == false).ToArrayAsync();
+            return await _dbcontext.Items.Where(x => x.IsDone == false && x.UserId == user.Id).ToArrayAsync();
         }
 
-        public async Task<bool> MarkDoneAsync(Guid id)
+        public async Task<bool> MarkDoneAsync(Guid id, IdentityUser user)
         {
-            var item = await _dbcontext.Items.Where(i => i.Id == id).FirstOrDefaultAsync();
+            var item = await _dbcontext.Items.Where(i => i.Id == id && i.UserId == user.Id).FirstOrDefaultAsync();
 
             if (item == null) return false;
 
