@@ -234,3 +234,4 @@ D:\Projects\dotnet\little-aspnetcore-todoapp\AspNetCoreTodo\obj\Debug\netcoreapp
 D:\Projects\dotnet\little-aspnetcore-todoapp\AspNetCoreTodo\obj\Debug\netcoreapp3.0\AspNetCoreTodo.dll
 D:\Projects\dotnet\little-aspnetcore-todoapp\AspNetCoreTodo\obj\Debug\netcoreapp3.0\AspNetCoreTodo.pdb
 D:\Projects\dotnet\little-aspnetcore-todoapp\AspNetCoreTodo\obj\Debug\netcoreapp3.0\AspNetCoreTodo.genruntimeconfig.cache
+E:\Projects\dotnet\AspNetCoreTodo\AspNetCoreTodo\obj\Debug\netcoreapp3.0\Razor\Views\ManageUsers\Index.cshtml.g.cs
