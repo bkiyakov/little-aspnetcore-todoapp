@@ -32,6 +32,7 @@ namespace AspNetCoreTodo
                 options.UseSqlite(
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+                .AddRoles<IdentityRole>() // ДОБАВИЛ ДЛЯ РЕШЕНИЯ ПРОБЛЕМЫ С SeedData
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
            services.AddRazorPages();

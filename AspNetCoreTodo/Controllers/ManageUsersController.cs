@@ -20,7 +20,7 @@ namespace AspNetCoreTodo.Controllers
         }
 
         public async Task<IActionResult> Index(){
-            var admins = (await _usermanager.GetUsersInRoleAsync("Administator")).ToArray();
+            var admins = (await _usermanager.GetUsersInRoleAsync(Constants.AdministratorRole)).ToArray();
             var everyone = await _usermanager.Users.ToArrayAsync();
 
             var model = new ManageUsersViewModel(){
